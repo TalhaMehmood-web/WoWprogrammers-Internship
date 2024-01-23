@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="bg-slate-800 flex flex-col text-white  w-full min-h-screen">
       <Navbar />
-      <p>Navigate To View Project</p>
       <div className=" flex-grow  flex items-start  mt-[5rem] justify-center">
         <Routes>
           <Route path="/" element={<AlarmClock />} />
